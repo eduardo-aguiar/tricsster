@@ -1,8 +1,9 @@
-import './Home.scss';
+import st from './Home.module.scss';
+
 export default function Home() {
   return (
     <div>
-      <div className="App">Home Page</div>
+      <div className={st.App}>Home Page</div>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import './LoginModal.scss';
+import './LoginModal.module.scss';
 
 export default function LoginModal() {
   return (
