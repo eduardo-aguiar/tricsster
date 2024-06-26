@@ -1,17 +1,21 @@
 import { Link } from "react-router-dom";
+import st from "./Navbar.module.scss"
 
 export default function Navbar() {
   return (
-    <nav className="">
+    <nav className={st["navbar"]}>
       <ul>
+        <div >
+      <li className={st["logo"]}>
+          <Link to="/">
+          <i className="ri-infinity-line"></i>
+          </Link>
+      </li>
+        </div>
+      <div className={st["linksContainer"]}>
       <li>
           <Link to="/training">
-            <a>Training</a>
-          </Link>
-        </li>
-        <li>
-          <Link to="/">
-            <a>Home</a>
+          <i className="ri-infinity-line"></i><a>Training</a>
           </Link>
         </li>
         <li>
@@ -24,6 +28,8 @@ export default function Navbar() {
             <a>Contact</a>
           </Link>
         </li>
+      </div>
+      
       </ul>
     </nav>
   );

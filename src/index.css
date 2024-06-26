@@ -1,0 +1,20 @@
+:root {
+    --primary-color: #005f73;
+    --secondary-color: #0a9396;
+    --secondary-light: #94d2bd;
+    --accent-color: #ee9b00;
+    --accent-dark: #ca6702;
+    --neutral-light: #e9d8a6;
+    --neutral-dark: #001219;
+    --white: #ffffff;
+  }
+
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
