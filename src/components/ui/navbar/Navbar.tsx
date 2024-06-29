@@ -15,7 +15,7 @@ export default function Navbar() {
       <div className={st["linksContainer"]}>
       <li>
           <Link to="/training">
-          <i className="ri-infinity-line"></i><a>Training</a>
+    
           </Link>
         </li>
         <li>
